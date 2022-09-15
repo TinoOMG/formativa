@@ -6,4 +6,4 @@ def display(request):
     return HttpResponse("<h1>No hay nada<h1>")
 
 def display2(request):
-    return("<h1>aca tampoco<h1>")
+    return HttpResponse("<h1>aca tampoco<h1>")

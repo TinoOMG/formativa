@@ -20,8 +20,8 @@ from secondtApp import views as app2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/chao', app1.display),
-    path('/hola', app1.display2),
-    path('/nada', app2.display),
-    path('/tmp', app2.display2),
+    path('chao/', app1.display),
+    path('hola/', app1.display2),
+    path('nada/', app2.display),
+    path('tmp/', app2.display2),
 ]

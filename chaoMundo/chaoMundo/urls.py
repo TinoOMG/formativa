@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from secondtApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('/nada', views.display),
+    path('/tmp', views.display2),
 ]
